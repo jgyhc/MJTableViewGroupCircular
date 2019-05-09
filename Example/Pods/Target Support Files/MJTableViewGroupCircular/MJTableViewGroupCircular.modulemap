@@ -1,0 +1,6 @@
+framework module MJTableViewGroupCircular {
+  umbrella header "MJTableViewGroupCircular-umbrella.h"
+
+  export *
+  module * { export * }
+}

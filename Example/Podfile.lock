@@ -1,0 +1,16 @@
+PODS:
+  - MJTableViewGroupCircular (0.1.1)
+
+DEPENDENCIES:
+  - MJTableViewGroupCircular (from `../`)
+
+EXTERNAL SOURCES:
+  MJTableViewGroupCircular:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MJTableViewGroupCircular: d175cb6dd794cccecf51a8a57732168a38c1de18
+
+PODFILE CHECKSUM: 3544958e17768fde42ff9ff167ed7640880990e0
+
+COCOAPODS: 1.6.0

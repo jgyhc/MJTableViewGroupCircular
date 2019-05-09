@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05C18EE2527914BC5A849F5A7D0298D4 /* Pods-MJTableViewGroupCircular_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0A59F3A4A6BE8B716CDB2906257F94 /* Pods-MJTableViewGroupCircular_Tests-dummy.m */; };
+		198C68FEC3026CCAFEA85D5C48DE7870 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		1DCBB21AC4FFB7E7CD24C8A8824AEA0A /* UITableViewCell+MJTableViewGroupCicular.m in Sources */ = {isa = PBXBuildFile; fileRef = 023A0A10CE3B3033B3CC90A38375B7A5 /* UITableViewCell+MJTableViewGroupCicular.m */; };
+		4C0639F5BBAA4CC3E61D7F7CD2AFD73D /* Pods-MJTableViewGroupCircular_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AC1438CB40BF0AF8C9B8E6427D06A00 /* Pods-MJTableViewGroupCircular_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		783CC304A8C80390D44B6151ADC1C975 /* UITableViewCell+MJTableViewGroupCicular.h in Headers */ = {isa = PBXBuildFile; fileRef = CBBB80DBB3FD957E7FC9A3E15F6C207B /* UITableViewCell+MJTableViewGroupCicular.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CD31F01E2E02E75D5870864DFB39C40 /* MJTableViewGroupCircular-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65168309801B94341316968575F4B265 /* MJTableViewGroupCircular-dummy.m */; };
+		ACD55818ACD7E89EED2077699F664583 /* MJTableViewGroupCircular-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3CEEB391E47C72CF85AF052970A72C7 /* MJTableViewGroupCircular-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE5E55C004A81C11B596BF8EEE74A362 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		B2BC433D026439B934076EB987D50E5F /* Pods-MJTableViewGroupCircular_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE140A9745DDEB57E48688CD694B6505 /* Pods-MJTableViewGroupCircular_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3A192D5C55D05CA4C222C395F14F9EE /* Pods-MJTableViewGroupCircular_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EF9ACE48135C28EB059798044EB0D6 /* Pods-MJTableViewGroupCircular_Example-dummy.m */; };
+		F11FFDCE00B9FB50F04DC4F4788A18E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73662B7D124EC77B23AD78CAC5BDFD0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EA897AC4073D7D99231D7B096707E98;
+			remoteInfo = "Pods-MJTableViewGroupCircular_Example";
+		};
+		BE22FBE6F4E7637480D868E907633EBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D93C321D2A1CAC042E820F9AD811D4E5;
+			remoteInfo = MJTableViewGroupCircular;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		023A0A10CE3B3033B3CC90A38375B7A5 /* UITableViewCell+MJTableViewGroupCicular.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+MJTableViewGroupCicular.m"; path = "MJTableViewGroupCircular/Classes/UITableViewCell+MJTableViewGroupCicular.m"; sourceTree = "<group>"; };
+		0B9CCAB208B368C29BB5FECAE4508B42 /* Pods-MJTableViewGroupCircular_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MJTableViewGroupCircular_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		13FE00EA5199C0F3957AF0163FA86FC3 /* Pods_MJTableViewGroupCircular_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MJTableViewGroupCircular_Example.framework; path = "Pods-MJTableViewGroupCircular_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		220BE41404DD5A5670A717863E218136 /* Pods-MJTableViewGroupCircular_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MJTableViewGroupCircular_Example.release.xcconfig"; sourceTree = "<group>"; };
+		26C1EC072A1DB531A5677980071F99A8 /* MJTableViewGroupCircular-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MJTableViewGroupCircular-Info.plist"; sourceTree = "<group>"; };
+		31EF9ACE48135C28EB059798044EB0D6 /* Pods-MJTableViewGroupCircular_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MJTableViewGroupCircular_Example-dummy.m"; sourceTree = "<group>"; };
+		3AC1438CB40BF0AF8C9B8E6427D06A00 /* Pods-MJTableViewGroupCircular_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MJTableViewGroupCircular_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4087DD3F062CAB7EDCF0A3F6674246DB /* Pods-MJTableViewGroupCircular_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MJTableViewGroupCircular_Example-Info.plist"; sourceTree = "<group>"; };
+		5CDE07D72EB3C297FEA0F429AF587234 /* Pods-MJTableViewGroupCircular_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MJTableViewGroupCircular_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		63B727C6A26C269B76B0C814EEBAD35F /* Pods-MJTableViewGroupCircular_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MJTableViewGroupCircular_Tests-Info.plist"; sourceTree = "<group>"; };
+		63F25FDEFEE1AD87EDA9EE0BDCECDA94 /* Pods-MJTableViewGroupCircular_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MJTableViewGroupCircular_Tests.modulemap"; sourceTree = "<group>"; };
+		65168309801B94341316968575F4B265 /* MJTableViewGroupCircular-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJTableViewGroupCircular-dummy.m"; sourceTree = "<group>"; };
+		67D71869BBE37ECC8455B1E256D9C512 /* MJTableViewGroupCircular.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJTableViewGroupCircular.xcconfig; sourceTree = "<group>"; };
+		75A1D3D96473516E7F7D37D41C70E043 /* Pods-MJTableViewGroupCircular_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MJTableViewGroupCircular_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		856757BFCA12D5208F478678343BC489 /* MJTableViewGroupCircular.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MJTableViewGroupCircular.modulemap; sourceTree = "<group>"; };
+		8B464FE553D83969A3CDAABEA8987D5D /* MJTableViewGroupCircular.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJTableViewGroupCircular.framework; path = MJTableViewGroupCircular.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D747CC8247AAF88615157FBA6E0BA54 /* Pods-MJTableViewGroupCircular_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MJTableViewGroupCircular_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9858EC41F8C8892CE776C5FEC5FD8BA5 /* Pods-MJTableViewGroupCircular_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MJTableViewGroupCircular_Example.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3CEEB391E47C72CF85AF052970A72C7 /* MJTableViewGroupCircular-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJTableViewGroupCircular-umbrella.h"; sourceTree = "<group>"; };
+		A4A0AC2B186CC23970576C6DE68E4CA3 /* MJTableViewGroupCircular.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MJTableViewGroupCircular.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B2C2AD4098F53B91C50645567553F676 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BA0DF21702F50BEB5EF58FACA663F6CC /* Pods_MJTableViewGroupCircular_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MJTableViewGroupCircular_Tests.framework; path = "Pods-MJTableViewGroupCircular_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CBBB80DBB3FD957E7FC9A3E15F6C207B /* UITableViewCell+MJTableViewGroupCicular.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+MJTableViewGroupCicular.h"; path = "MJTableViewGroupCircular/Classes/UITableViewCell+MJTableViewGroupCicular.h"; sourceTree = "<group>"; };
+		CDEE22C83B6BA6BCA84429B554FB11D5 /* Pods-MJTableViewGroupCircular_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MJTableViewGroupCircular_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DB61E0A4DB60B669AF5DDD9F69DD4E91 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DE0A59F3A4A6BE8B716CDB2906257F94 /* Pods-MJTableViewGroupCircular_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MJTableViewGroupCircular_Tests-dummy.m"; sourceTree = "<group>"; };
+		DEC7AE914A9DF734404DCCD1D692FA15 /* MJTableViewGroupCircular-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJTableViewGroupCircular-prefix.pch"; sourceTree = "<group>"; };
+		E8720D73D35CB794023C192000F72FA7 /* Pods-MJTableViewGroupCircular_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MJTableViewGroupCircular_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EF272BFDED13A284DC6F3B3DBED4218F /* Pods-MJTableViewGroupCircular_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MJTableViewGroupCircular_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FBBAB01CF541CC50616677719759C283 /* Pods-MJTableViewGroupCircular_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MJTableViewGroupCircular_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FE140A9745DDEB57E48688CD694B6505 /* Pods-MJTableViewGroupCircular_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MJTableViewGroupCircular_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7ADA289742589AAE9FD8399CE5E7663E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198C68FEC3026CCAFEA85D5C48DE7870 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D792C85B838A262EDB37BED8BF129B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE5E55C004A81C11B596BF8EEE74A362 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C538CBF574B479B2491209006651390D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11FFDCE00B9FB50F04DC4F4788A18E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25DBD5EB4C0338E129A6009AFFA157AF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA0A9388B3EA226C4784AE8D4415A615 /* Pods-MJTableViewGroupCircular_Example */,
+				5969E14D061FE932AEE148D0DED3DE86 /* Pods-MJTableViewGroupCircular_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		26E0819270CA0558490D29902D63E114 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				856757BFCA12D5208F478678343BC489 /* MJTableViewGroupCircular.modulemap */,
+				67D71869BBE37ECC8455B1E256D9C512 /* MJTableViewGroupCircular.xcconfig */,
+				65168309801B94341316968575F4B265 /* MJTableViewGroupCircular-dummy.m */,
+				26C1EC072A1DB531A5677980071F99A8 /* MJTableViewGroupCircular-Info.plist */,
+				DEC7AE914A9DF734404DCCD1D692FA15 /* MJTableViewGroupCircular-prefix.pch */,
+				A3CEEB391E47C72CF85AF052970A72C7 /* MJTableViewGroupCircular-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MJTableViewGroupCircular";
+			sourceTree = "<group>";
+		};
+		275E147CD7EBB402BFED7115171C408B /* MJTableViewGroupCircular */ = {
+			isa = PBXGroup;
+			children = (
+				CBBB80DBB3FD957E7FC9A3E15F6C207B /* UITableViewCell+MJTableViewGroupCicular.h */,
+				023A0A10CE3B3033B3CC90A38375B7A5 /* UITableViewCell+MJTableViewGroupCicular.m */,
+				C08A51D969128FE368E298E3AF01663C /* Pod */,
+				26E0819270CA0558490D29902D63E114 /* Support Files */,
+			);
+			name = MJTableViewGroupCircular;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		37882A03D5BE54C29B1449761E47B3E6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				275E147CD7EBB402BFED7115171C408B /* MJTableViewGroupCircular */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		502C876F260D673148028934208B8A8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B464FE553D83969A3CDAABEA8987D5D /* MJTableViewGroupCircular.framework */,
+				13FE00EA5199C0F3957AF0163FA86FC3 /* Pods_MJTableViewGroupCircular_Example.framework */,
+				BA0DF21702F50BEB5EF58FACA663F6CC /* Pods_MJTableViewGroupCircular_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5969E14D061FE932AEE148D0DED3DE86 /* Pods-MJTableViewGroupCircular_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				63F25FDEFEE1AD87EDA9EE0BDCECDA94 /* Pods-MJTableViewGroupCircular_Tests.modulemap */,
+				CDEE22C83B6BA6BCA84429B554FB11D5 /* Pods-MJTableViewGroupCircular_Tests-acknowledgements.markdown */,
+				EF272BFDED13A284DC6F3B3DBED4218F /* Pods-MJTableViewGroupCircular_Tests-acknowledgements.plist */,
+				DE0A59F3A4A6BE8B716CDB2906257F94 /* Pods-MJTableViewGroupCircular_Tests-dummy.m */,
+				63B727C6A26C269B76B0C814EEBAD35F /* Pods-MJTableViewGroupCircular_Tests-Info.plist */,
+				3AC1438CB40BF0AF8C9B8E6427D06A00 /* Pods-MJTableViewGroupCircular_Tests-umbrella.h */,
+				75A1D3D96473516E7F7D37D41C70E043 /* Pods-MJTableViewGroupCircular_Tests.debug.xcconfig */,
+				0B9CCAB208B368C29BB5FECAE4508B42 /* Pods-MJTableViewGroupCircular_Tests.release.xcconfig */,
+			);
+			name = "Pods-MJTableViewGroupCircular_Tests";
+			path = "Target Support Files/Pods-MJTableViewGroupCircular_Tests";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		AA0A9388B3EA226C4784AE8D4415A615 /* Pods-MJTableViewGroupCircular_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9858EC41F8C8892CE776C5FEC5FD8BA5 /* Pods-MJTableViewGroupCircular_Example.modulemap */,
+				8D747CC8247AAF88615157FBA6E0BA54 /* Pods-MJTableViewGroupCircular_Example-acknowledgements.markdown */,
+				E8720D73D35CB794023C192000F72FA7 /* Pods-MJTableViewGroupCircular_Example-acknowledgements.plist */,
+				31EF9ACE48135C28EB059798044EB0D6 /* Pods-MJTableViewGroupCircular_Example-dummy.m */,
+				FBBAB01CF541CC50616677719759C283 /* Pods-MJTableViewGroupCircular_Example-frameworks.sh */,
+				4087DD3F062CAB7EDCF0A3F6674246DB /* Pods-MJTableViewGroupCircular_Example-Info.plist */,
+				FE140A9745DDEB57E48688CD694B6505 /* Pods-MJTableViewGroupCircular_Example-umbrella.h */,
+				5CDE07D72EB3C297FEA0F429AF587234 /* Pods-MJTableViewGroupCircular_Example.debug.xcconfig */,
+				220BE41404DD5A5670A717863E218136 /* Pods-MJTableViewGroupCircular_Example.release.xcconfig */,
+			);
+			name = "Pods-MJTableViewGroupCircular_Example";
+			path = "Target Support Files/Pods-MJTableViewGroupCircular_Example";
+			sourceTree = "<group>";
+		};
+		C08A51D969128FE368E298E3AF01663C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B2C2AD4098F53B91C50645567553F676 /* LICENSE */,
+				A4A0AC2B186CC23970576C6DE68E4CA3 /* MJTableViewGroupCircular.podspec */,
+				DB61E0A4DB60B669AF5DDD9F69DD4E91 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				37882A03D5BE54C29B1449761E47B3E6 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				502C876F260D673148028934208B8A8A /* Products */,
+				25DBD5EB4C0338E129A6009AFFA157AF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		292F89DD02F580EFE98B2A49C1BD8677 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2BC433D026439B934076EB987D50E5F /* Pods-MJTableViewGroupCircular_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F4AF3025BACD03A27224EB41F8DE3E8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD55818ACD7E89EED2077699F664583 /* MJTableViewGroupCircular-umbrella.h in Headers */,
+				783CC304A8C80390D44B6151ADC1C975 /* UITableViewCell+MJTableViewGroupCicular.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCEE6301F8D29953765B653A710D03D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C0639F5BBAA4CC3E61D7F7CD2AFD73D /* Pods-MJTableViewGroupCircular_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7EA897AC4073D7D99231D7B096707E98 /* Pods-MJTableViewGroupCircular_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8F57CE9F60A362BA2C669304369017E /* Build configuration list for PBXNativeTarget "Pods-MJTableViewGroupCircular_Example" */;
+			buildPhases = (
+				292F89DD02F580EFE98B2A49C1BD8677 /* Headers */,
+				0910CCD9F8E39EA948019EC31FF0E863 /* Sources */,
+				8D792C85B838A262EDB37BED8BF129B8 /* Frameworks */,
+				325D19E061C4841CE4BBC8AF7ADE097A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA167F752184E6D8F07AE4A094AEB181 /* PBXTargetDependency */,
+			);
+			name = "Pods-MJTableViewGroupCircular_Example";
+			productName = "Pods-MJTableViewGroupCircular_Example";
+			productReference = 13FE00EA5199C0F3957AF0163FA86FC3 /* Pods_MJTableViewGroupCircular_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7F7E566B2794CB46D15D9088A6F0406C /* Pods-MJTableViewGroupCircular_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEC413747E4F90A444F71423FB39C258 /* Build configuration list for PBXNativeTarget "Pods-MJTableViewGroupCircular_Tests" */;
+			buildPhases = (
+				ECCEE6301F8D29953765B653A710D03D /* Headers */,
+				E0AB380E9F436FC699EBD4AE9F61B7BB /* Sources */,
+				C538CBF574B479B2491209006651390D /* Frameworks */,
+				23FF3F635E0704BBC7ED531D6DB717CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A62C2FD10A41FC5CDFF810D0E06D2A78 /* PBXTargetDependency */,
+			);
+			name = "Pods-MJTableViewGroupCircular_Tests";
+			productName = "Pods-MJTableViewGroupCircular_Tests";
+			productReference = BA0DF21702F50BEB5EF58FACA663F6CC /* Pods_MJTableViewGroupCircular_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D93C321D2A1CAC042E820F9AD811D4E5 /* MJTableViewGroupCircular */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB24C205DF52FA10E7541BDD6A62E63C /* Build configuration list for PBXNativeTarget "MJTableViewGroupCircular" */;
+			buildPhases = (
+				3F4AF3025BACD03A27224EB41F8DE3E8 /* Headers */,
+				2ADAE83EA34F7D10B6875331759C288B /* Sources */,
+				7ADA289742589AAE9FD8399CE5E7663E /* Frameworks */,
+				99F2AA222E8FFDE5B6E4A1B7686C47F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MJTableViewGroupCircular;
+			productName = MJTableViewGroupCircular;
+			productReference = 8B464FE553D83969A3CDAABEA8987D5D /* MJTableViewGroupCircular.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 502C876F260D673148028934208B8A8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D93C321D2A1CAC042E820F9AD811D4E5 /* MJTableViewGroupCircular */,
+				7EA897AC4073D7D99231D7B096707E98 /* Pods-MJTableViewGroupCircular_Example */,
+				7F7E566B2794CB46D15D9088A6F0406C /* Pods-MJTableViewGroupCircular_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23FF3F635E0704BBC7ED531D6DB717CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		325D19E061C4841CE4BBC8AF7ADE097A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F2AA222E8FFDE5B6E4A1B7686C47F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0910CCD9F8E39EA948019EC31FF0E863 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A192D5C55D05CA4C222C395F14F9EE /* Pods-MJTableViewGroupCircular_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ADAE83EA34F7D10B6875331759C288B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CD31F01E2E02E75D5870864DFB39C40 /* MJTableViewGroupCircular-dummy.m in Sources */,
+				1DCBB21AC4FFB7E7CD24C8A8824AEA0A /* UITableViewCell+MJTableViewGroupCicular.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0AB380E9F436FC699EBD4AE9F61B7BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05C18EE2527914BC5A849F5A7D0298D4 /* Pods-MJTableViewGroupCircular_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A62C2FD10A41FC5CDFF810D0E06D2A78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MJTableViewGroupCircular_Example";
+			target = 7EA897AC4073D7D99231D7B096707E98 /* Pods-MJTableViewGroupCircular_Example */;
+			targetProxy = 73662B7D124EC77B23AD78CAC5BDFD0E /* PBXContainerItemProxy */;
+		};
+		BA167F752184E6D8F07AE4A094AEB181 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJTableViewGroupCircular;
+			target = D93C321D2A1CAC042E820F9AD811D4E5 /* MJTableViewGroupCircular */;
+			targetProxy = BE22FBE6F4E7637480D868E907633EBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		227DFBEBBBED74538F52C1E9B014D9DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67D71869BBE37ECC8455B1E256D9C512 /* MJTableViewGroupCircular.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MJTableViewGroupCircular/MJTableViewGroupCircular-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJTableViewGroupCircular/MJTableViewGroupCircular-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MJTableViewGroupCircular/MJTableViewGroupCircular.modulemap";
+				PRODUCT_MODULE_NAME = MJTableViewGroupCircular;
+				PRODUCT_NAME = MJTableViewGroupCircular;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		340883522A7817ECC149FC2EFFD352BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B9CCAB208B368C29BB5FECAE4508B42 /* Pods-MJTableViewGroupCircular_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MJTableViewGroupCircular_Tests/Pods-MJTableViewGroupCircular_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MJTableViewGroupCircular_Tests/Pods-MJTableViewGroupCircular_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		38DE3A7DACF69A1931EB238CA8CFA822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CDE07D72EB3C297FEA0F429AF587234 /* Pods-MJTableViewGroupCircular_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MJTableViewGroupCircular_Example/Pods-MJTableViewGroupCircular_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MJTableViewGroupCircular_Example/Pods-MJTableViewGroupCircular_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5EE8371B55C61B220F98B51A45A30017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 220BE41404DD5A5670A717863E218136 /* Pods-MJTableViewGroupCircular_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MJTableViewGroupCircular_Example/Pods-MJTableViewGroupCircular_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MJTableViewGroupCircular_Example/Pods-MJTableViewGroupCircular_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A0CAF9ED92A58C84E0B4E30C3D8BB457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75A1D3D96473516E7F7D37D41C70E043 /* Pods-MJTableViewGroupCircular_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MJTableViewGroupCircular_Tests/Pods-MJTableViewGroupCircular_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MJTableViewGroupCircular_Tests/Pods-MJTableViewGroupCircular_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CDF1149068D63F3AF8CD46937005DA24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67D71869BBE37ECC8455B1E256D9C512 /* MJTableViewGroupCircular.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MJTableViewGroupCircular/MJTableViewGroupCircular-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJTableViewGroupCircular/MJTableViewGroupCircular-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MJTableViewGroupCircular/MJTableViewGroupCircular.modulemap";
+				PRODUCT_MODULE_NAME = MJTableViewGroupCircular;
+				PRODUCT_NAME = MJTableViewGroupCircular;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEC413747E4F90A444F71423FB39C258 /* Build configuration list for PBXNativeTarget "Pods-MJTableViewGroupCircular_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CAF9ED92A58C84E0B4E30C3D8BB457 /* Debug */,
+				340883522A7817ECC149FC2EFFD352BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB24C205DF52FA10E7541BDD6A62E63C /* Build configuration list for PBXNativeTarget "MJTableViewGroupCircular" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227DFBEBBBED74538F52C1E9B014D9DE /* Debug */,
+				CDF1149068D63F3AF8CD46937005DA24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8F57CE9F60A362BA2C669304369017E /* Build configuration list for PBXNativeTarget "Pods-MJTableViewGroupCircular_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38DE3A7DACF69A1931EB238CA8CFA822 /* Debug */,
+				5EE8371B55C61B220F98B51A45A30017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

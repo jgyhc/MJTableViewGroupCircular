@@ -1,0 +1,6 @@
+framework module Pods_MJTableViewGroupCircular_Tests {
+  umbrella header "Pods-MJTableViewGroupCircular_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
