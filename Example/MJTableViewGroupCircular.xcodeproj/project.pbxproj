@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		2FD180CB973BD88FC080A692 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		31A0591AC4A6482756F29ED6 /* MJTableViewGroupCircular.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MJTableViewGroupCircular.podspec; path = ../MJTableViewGroupCircular.podspec; sourceTree = "<group>"; };
+		31A0591AC4A6482756F29ED6 /* MJTableViewGroupCircular.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MJTableViewGroupCircular.podspec; path = ../MJTableViewGroupCircular.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5D62B2E061C1733C27398B3E /* Pods-MJTableViewGroupCircular_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJTableViewGroupCircular_Tests.release.xcconfig"; path = "Target Support Files/Pods-MJTableViewGroupCircular_Tests/Pods-MJTableViewGroupCircular_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MJTableViewGroupCircular_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MJTableViewGroupCircular_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -260,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

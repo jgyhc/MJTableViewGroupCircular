@@ -17,15 +17,13 @@
     NSInteger numberOfRows = [tableView numberOfRowsInSection:indexPath.section];
     //绘制曲线
     UIBezierPath *bezierPath = nil;
-    
-    if (indexPath.row == 0) {
-        //为组的第一行时,左上、右上角为圆角
+    if (indexPath.row == 0 && indexPath.row == numberOfRows - 1)  {//只有一个cell的时候
+        bezierPath = [UIBezierPath bezierPathWithRoundedRect:bounds byRoundingCorners:(UIRectCornerTopLeft|UIRectCornerTopRight|UIRectCornerBottomLeft|UIRectCornerBottomRight) cornerRadii:CGSizeMake(cornerRadius, cornerRadius)];
+    }else if (indexPath.row == 0) {////为组的第一行时,左上、右上角为圆角
         bezierPath = [UIBezierPath bezierPathWithRoundedRect:bounds byRoundingCorners:(UIRectCornerTopLeft|UIRectCornerTopRight) cornerRadii:CGSizeMake(cornerRadius, cornerRadius)];
-    } else if (indexPath.row == numberOfRows - 1) {
-        //为组的最后一行,左下、右下角为圆角
+    } else if (indexPath.row == numberOfRows - 1) {//为组的最后一行,左下、右下角为圆角
         bezierPath = [UIBezierPath bezierPathWithRoundedRect:bounds byRoundingCorners:(UIRectCornerBottomLeft|UIRectCornerBottomRight) cornerRadii:CGSizeMake(cornerRadius, cornerRadius)];
-    } else {
-        //中间的都为矩形
+    } else {//中间的都为矩形
         bezierPath = [UIBezierPath bezierPathWithRect:bounds];
     }
     //新建一个图层
